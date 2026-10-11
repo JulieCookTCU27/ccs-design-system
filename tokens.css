@@ -1,0 +1,14 @@
+/* CCS — generated from tokens.json */
+@font-face{font-family:"League Spartan";src:url("LeagueSpartan-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Quicksand";src:url("Quicksand-Variable.woff2") format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+:root, [data-theme="light"] {--linen:#f1efe7;--sky-blue:#4d9ec0;--black:#101010;--peacock-blue:#016795;--surface:var(--linen);--surface-raised:#f8f7f2;--ink:var(--black);--ink-muted:#55534d;--accent:var(--peacock-blue);--on-accent:var(--linen);--rule:var(--peacock-blue);--hairline:#d6d2c4;--focus:var(--peacock-blue);}
+[data-theme="dark"] {--surface:var(--black);--surface-raised:#1c1c1b;--ink:var(--linen);--ink-muted:#b8b4a8;--accent:var(--sky-blue);--on-accent:var(--black);--rule:var(--sky-blue);--hairline:#2e2e2c;--focus:var(--sky-blue);}
+:root{--space-1:4px;--space-2:8px;--space-3:16px;--space-4:24px;--space-5:40px;--space-6:64px;--radius-none:0px;--radius-sm:2px;--radius-pill:9999px;--border-hairline:1px;--border-strong:2px;--font-display:"League Spartan", "Helvetica Neue", Arial, sans-serif;--font-body:Quicksand, "Avenir Next", "Segoe UI", sans-serif;}
+.display{font-family:var(--font-display);font-size:64px;line-height:0.95;font-weight:700;letter-spacing:-0.03em;}
+.h1{font-family:var(--font-display);font-size:44px;line-height:1.0;font-weight:700;letter-spacing:-0.02em;}
+.h2{font-family:var(--font-display);font-size:30px;line-height:1.1;font-weight:700;letter-spacing:-0.01em;}
+.h3{font-family:var(--font-display);font-size:21px;line-height:1.2;font-weight:600;}
+.body{font-family:var(--font-body);font-size:16px;line-height:1.6;font-weight:400;}
+.small{font-family:var(--font-body);font-size:13px;line-height:1.5;font-weight:500;}
+.label{font-family:var(--font-body);font-size:12px;line-height:1.4;font-weight:500;letter-spacing:0.2em;}
+.tracked{font-family:var(--font-body);font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0.45em;}
